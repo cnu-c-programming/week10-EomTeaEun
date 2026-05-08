@@ -70,7 +70,7 @@ int main(){
         else if (strcmp(command, "print") == 0) {
             struct Node* curr = head;
             while (curr != NULL) {
-                printf("%s: %d\n", curr->name, curr->score);
+                printf("%s %d\n", curr->name, curr->score);
                 curr = curr->next;
             }
         }

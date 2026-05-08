@@ -23,7 +23,7 @@ int main(){
     clock_t start, finish;
     start = clock();
     for(int i=0; i<1e7; i++){
-        updated_val(s);
+        update_val(s);
     }
     finish = clock();
     printf("%f\n", (double)(finish-start)/CLOCKS_PER_SEC);
